@@ -1,0 +1,4 @@
+# vim: set ft=sudoers:
+
+%sudo  ALL=(ALL) NOPASSWD: ALL
+%wheel ALL=(ALL) NOPASSWD: ALL

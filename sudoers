@@ -36,21 +36,21 @@
 ## when running commands via sudo.
 ##
 ## Locale settings
-# Defaults env_keep += "LANG LANGUAGE LINGUAS LC_* _XKB_CHARSET"
+Defaults env_keep += "LANG LANGUAGE LINGUAS LC_* _XKB_CHARSET"
 ##
 ## Run X applications through sudo; HOME is used to find the
 ## .Xauthority file.  Note that other programs use HOME to find   
 ## configuration files and this may lead to privilege escalation!
-# Defaults env_keep += "HOME"
+Defaults env_keep += "HOME"
 ##
 ## X11 resource path settings
-# Defaults env_keep += "XAPPLRESDIR XFILESEARCHPATH XUSERFILESEARCHPATH"
+#Defaults env_keep += "XAPPLRESDIR XFILESEARCHPATH XUSERFILESEARCHPATH"
 ##
 ## Desktop path settings
-# Defaults env_keep += "QTDIR KDEDIR"
+#Defaults env_keep += "QTDIR KDEDIR"
 ##
 ## Allow sudo-run commands to inherit the callers' ConsoleKit session
-# Defaults env_keep += "XDG_SESSION_COOKIE"
+#Defaults env_keep += "XDG_SESSION_COOKIE"
 ##
 ## Uncomment to enable special input methods.  Care should be taken as
 ## this may allow users to subvert the command being run via sudo.
@@ -97,5 +97,4 @@ root ALL=(ALL) ALL
 
 
 # custom
-%sudo ALL=(ALL) NOPASSWD: ALL
-%wheel ALL=(ALL) NOPASSWD: ALL
+#%wheel ALL=(ALL) NOPASSWD: ALL

@@ -1,0 +1,3 @@
+# vim: ft=sudoers:
+
+Defaults env_keep += "DNSIMPLE_OAUTH_TOKEN"
