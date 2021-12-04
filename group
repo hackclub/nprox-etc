@@ -62,3 +62,4 @@ autologin:x:1000:zfogg
 zfogg:x:1001:
 sudo:x:1002:zfogg
 orpheus:x:1003:
+caddy:x:965:
